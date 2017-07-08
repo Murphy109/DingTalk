@@ -214,9 +214,12 @@ button.swiper-pagination-bullet {
 .swiper-pagination-white .swiper-pagination-bullet {
   background: #fff;
 }
+/**
+ *按钮颜色
+ */
 .swiper-pagination-bullet-active {
   opacity: 1;
-  background: #007aff;
+  background: #666;
 }
 .swiper-pagination-white .swiper-pagination-bullet-active {
   background: #fff;

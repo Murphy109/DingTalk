@@ -1,0 +1,168 @@
+@charset "UTF-8";
+.margin {
+  margin: 0 0.45rem;
+  box-sizing: border-box;
+  padding: 0; }
+
+header {
+  border-bottom: 0.01rem solid #d2d2d2;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  width: 14.4rem;
+  height: 1.92rem;
+  background: #f7f7f7; }
+  header .headerCont {
+    height: 1.92rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    header .headerCont .headerLeft {
+      display: flex;
+      align-items: center;
+      font: 0.68rem "微软雅黑";
+      color: #666; }
+    header .headerCont .headerRight {
+      display: flex;
+      align-items: center; }
+      header .headerCont .headerRight img {
+        margin-left: 0.95rem; }
+        header .headerCont .headerRight img:nth-of-type(1) {
+          width: 0.72rem; }
+        header .headerCont .headerRight img:nth-of-type(2) {
+          width: 0.77rem; }
+        header .headerCont .headerRight img:nth-of-type(3) {
+          width: 0.72rem; }
+
+section {
+  padding: 1.93rem 0 2.1rem 0;
+  background: #f0eff4; }
+  section .personal {
+    width: auto;
+    height: 6.5rem;
+    margin: 0.7rem;
+    border-radius: 0.2rem;
+    background: #fff;
+    box-shadow: 0 0 0.05rem #ededed;
+    padding: 1.1rem 0.7rem 0.6rem 0.7rem; }
+    section .personal .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      section .personal .top h2 {
+        font: 700 0.74rem "微软雅黑"; }
+      section .personal .top .box {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%; }
+        section .personal .top .box img {
+          width: 2rem;
+          height: 2rem; }
+    section .personal .middle {
+      margin: 2.4rem 0 0.24rem 0;
+      display: flex;
+      align-items: center;
+      font: 0.62rem "微软雅黑"; }
+      section .personal .middle img {
+        width: 0.29rem;
+        height: 0.5rem;
+        margin-left: 0.2rem; }
+    section .personal .bottom {
+      display: flex;
+      align-items: center; }
+      section .personal .bottom img {
+        width: 2.6rem;
+        height: 0.78rem;
+        margin-right: 0.2rem; }
+      section .personal .bottom .index {
+        display: flex;
+        align-items: center;
+        background: #38adff;
+        height: 0.4rem;
+        padding: 0.2rem 0.2rem;
+        border-radius: 0.4rem; }
+        section .personal .bottom .index img {
+          width: 0.5rem;
+          height: 0.5rem; }
+        section .personal .bottom .index p {
+          font: 0.4rem "微软雅黑";
+          color: #fff; }
+          section .personal .bottom .index p span {
+            margin: 0 0.1rem; }
+  section .contactLists {
+    background: #fff;
+    margin-bottom: 0.64rem; }
+    section .contactLists ul li {
+      display: flex;
+      align-items: center;
+      height: 1.78rem;
+      font: 0.6rem/1.78rem "微软雅黑";
+      color: #222; }
+      section .contactLists ul li:nth-last-of-type(1) .right {
+        border: 0; }
+      section .contactLists ul li .left {
+        height: 1.78rem;
+        width: 0.9rem;
+        margin-right: 0.45rem; }
+        section .contactLists ul li .left img {
+          width: 0.9rem;
+          height: 0.9rem; }
+      section .contactLists ul li .right {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 1.78rem;
+        width: 11.84rem;
+        border-bottom: 0.01rem solid #c5c5c5; }
+        section .contactLists ul li .right img {
+          width: 0.29rem;
+          height: 0.5rem; }
+    section .contactLists:nth-of-type(2) ul li .left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 0.9rem;
+      height: 1.78rem;
+      margin-right: 0.45rem; }
+      section .contactLists:nth-of-type(2) ul li .left img {
+        width: 0.9rem;
+        height: 0.9rem; }
+
+footer {
+  border-top: 0.01rem solid #d2d2d2;
+  background: #f7f7f7;
+  height: 2.1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 14.4rem; }
+  footer .nav {
+    margin: 0 0.5rem;
+    height: 2.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; }
+    footer .nav div {
+      margin-top: 0.3rem;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      footer .nav div p {
+        font: 0.4rem/0.76rem "微软雅黑";
+        color: #38adff; }
+    footer .nav .msg img {
+      width: 0.9rem; }
+    footer .nav .ding img {
+      width: 0.74rem; }
+    footer .nav .work img {
+      width: 0.8rem; }
+    footer .nav .contact img {
+      width: 0.95rem; }
+    footer .nav .mine img {
+      width: 0.77rem; }
+
+/*# sourceMappingURL=mine.css.map */
