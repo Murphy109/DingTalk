@@ -14,7 +14,11 @@ $(function(){
     $(".mine").click(function(){
         location.href="mine.html";
     });
-    $("#sec .content li").eq(2).click(function(){
-        location.href="dingChat.html";
+    $(".contactLists").eq(2).click(function(){
+        location.href="setting.html";
+    });
+
+    $(".personal").click(function(){
+        location.href="information.html";
     });
 });

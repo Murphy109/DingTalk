@@ -1,3 +1,17 @@
-/**
- * Created by Administrator on 2017/7/5.
- */
+$(function(){
+    $(".msg").click(function(){
+        location.href="index.html";
+    });
+    $(".ding").click(function(){
+        location.href="ding.html";
+    });
+    $(".work").click(function(){
+        location.href="work.html";
+    });
+    $(".contact").click(function(){
+        location.href="contact.html";
+    });
+    $(".mine").click(function(){
+        location.href="mine.html";
+    });
+});

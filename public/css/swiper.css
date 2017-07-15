@@ -185,14 +185,14 @@
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
 .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: 10px;
+  bottom: 0.3rem;
   left: 0;
   width: 100%;
 }
 /* Bullets */
 .swiper-pagination-bullet {
-  width: 8px;
-  height: 8px;
+  width: 0.25rem;
+  height: 0.25rem;
   display: inline-block;
   border-radius: 100%;
   background: #000;
